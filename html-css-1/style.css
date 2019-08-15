@@ -1,0 +1,186 @@
+body {
+    display: inline-block;
+} 
+ul {
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+    height: 20vh;
+    align-items:flex-end;
+
+} 
+
+.container-1{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:rgb(130, 127, 127);
+    
+}
+
+.container-2{
+    background-color:black;
+    width:100vw;
+    height:22vh;
+    position:relative;
+
+}
+.text{
+    color:rgb(247, 247, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+
+.nav-start{
+list-style-type:none;
+display: flex;
+ justify-content: space-around; 
+margin-top: 10px;
+align-items: flex-start;
+
+    }
+
+    .company{
+        color:rgb(255, 255, 255);
+        font-size: 3ch;
+        font-family: 'Open Sans', sans-serif;
+        height: 470px;
+        
+    }
+    .nav-middle{
+        list-style-type:none;
+        color: rgb(255, 255, 255);
+        font-size: 1.8ch;
+        width:30vw;
+        height:460px;
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-start; 
+        font-family: 'Open Sans', sans-serif;
+        
+        
+    } 
+
+    .container-3{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height:230px;
+        display:flex;
+        position: relative;
+        /* flex-direction:  column; */
+
+    }
+
+    .box-1{
+        height:170px;
+        width:170px;
+        background-color:rgb(136, 218, 199);
+        display: flex;
+        margin-top:33px;
+        position: absolute;
+        right: 160px;
+        border-radius:25px;
+    }
+
+    .box-2{
+        height:170px;
+        width:170px;
+        background-color:rgb(136, 218, 199);
+        margin-top:33px;
+        position: absolute;
+        margin-left:900px;
+        border-radius:25px;
+
+    }
+
+    .box-3{
+        height:170px;
+        width:170px;
+        background-color:rgb(136, 218, 199);
+        margin-top:33px;
+        position: absolute;
+        margin-left: 130px;
+        border-radius: 25px;
+    }
+
+    .container-4{
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height:260px;
+        display:flex;
+        position: relative;
+    }
+
+    .box-4{
+        height:200px;
+        width:700px;
+        background-color: rgb(235, 196, 123);
+        position: absolute;
+        margin-top:7px;
+        margin-left: 1030px;
+
+
+    }
+
+    .box-5{
+        height:200px;
+        width:700px;
+        background-color: rgb(235, 196, 123);
+        position: absolute;
+        margin-left: 210px;
+        margin-top: 7px;
+     }
+
+     .container-5{
+         background-color:rgb(255, 255, 255);
+         width:100vw;
+         height:260px;
+         position: relative;
+     }
+
+     .image{
+         background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/11552/images/hero_small/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623);
+         height:200px;
+         width:300px;
+         position: absolute;
+         margin-top:7px;
+         margin-left:1215px;
+         background-size: cover;
+     }
+
+     .p{
+         text-align: center;
+         font-size: 2ch;
+         margin-top:10px;
+         position: absolute;
+        width:400px;
+        margin-left:300px;
+        font-family: 'Gothic A1', sans-serif;
+
+
+
+     }
+ 
+
+
+
+
+
+
+
+
+    /* .footer{
+        width:10vw;
+        height:20px;
+        background-color: purple;
+        display:flex;
+        align-items: flex-end;
+    } */
